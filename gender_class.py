@@ -7,7 +7,7 @@ from PIL import Image, ImageOps
 model = tf.keras.models.load_model('gender_classification_model4.h5')
 
 # Set Streamlit app title
-st.title("Gender Prediction App")
+st.title("Gender Prediction App by CNN")
 st.write("Upload an image, and the model will classify the gender as either Male or Female.")
 
 # Function to preprocess the uploaded image
