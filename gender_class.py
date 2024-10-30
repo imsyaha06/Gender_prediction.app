@@ -6,7 +6,6 @@ from PIL import Image, ImageOps
 st.set_page_config(
     page_title="Gender Prediction",
     page_icon="👫",  # Use the emoji directly
-    layout="wide"
 )
 
 # Load the saved model
