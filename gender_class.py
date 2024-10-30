@@ -3,6 +3,12 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image, ImageOps
 
+st.set_page_config(
+    page_title="Gender Prediction",
+    page_icon="👫",  # Use the emoji directly
+    layout="wide"
+)
+
 # Load the saved model
 model = tf.keras.models.load_model('gender_classification_model4.h5')
 
